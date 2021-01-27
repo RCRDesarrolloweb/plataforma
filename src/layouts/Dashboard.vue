@@ -28,14 +28,14 @@
           <q-list>
 
             <template v-for="(menuItem, index) in menuList">
-              <q-item class="q-pa-lg" :key="index" clickable :active="menuItem.label === 'Outbox'" v-ripple>
+              <q-btn :to="menuItem.to" style="width: 100%" flat class="q-pa-lg" :key="index" clickable :active="menuItem.label === 'Outbox'" v-ripple>
                 <q-item-section avatar>
                   <q-icon :name="menuItem.icon" />
                 </q-item-section>
                 <q-item-section>
                   {{ menuItem.label }}
                 </q-item-section>
-              </q-item>
+              </q-btn>
               <q-separator :key="'sep' + index"  v-if="menuItem.separator" />
             </template>
 
@@ -53,6 +53,7 @@ const menuList = [
   {
     icon: 'inbox',
     label: 'Mis Cursos',
+    to: '/Dashboard',
     separator: false
   },
   {
