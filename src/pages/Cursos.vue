@@ -12,7 +12,7 @@
        <div class="q-video q-pl-xl q-pr-xl">
         <q-video
             src="Curso-Linkedin-Parte-1.mp4"
-            type='video/mp4'
+            type="video/mp4"
             class="rounded-borders shadow-5"
             allowfullscreen
             :ratio="16/9"
