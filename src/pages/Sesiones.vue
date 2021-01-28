@@ -19,7 +19,7 @@
            {{ item.name }}
           </div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-            10 min
+            {{ item.pais }}
           </div>
         </div>
 
@@ -60,28 +60,32 @@ export default {
           img: 'Equipo/Joaco.jpg',
           url: 'cursos/gmail',
           descripcion: 'Ten una gradable reunión, refuerza, aprende y descubre habilidades nuevas con personas experimentadas en el area',
-          disable: true
+          disable: true,
+          pais: 'Chile'
         },
         {
           name: 'Ricardo Contreras',
           img: 'Equipo/Ricardo.jpg',
           url: 'cursos/gmail',
           descripcion: 'Ten una gradable reunión, refuerza, aprende y descubre habilidades nuevas con personas experimentadas en el area',
-          disable: true
+          disable: true,
+          pais: 'Venezuela'
         },
         {
           name: 'Jorge Cerda',
           img: 'Equipo/Jorge.jpeg',
           url: 'cursos/gmail',
           descripcion: 'Ten una gradable reunión, refuerza, aprende y descubre habilidades nuevas con personas experimentadas en el area',
-          disable: true
+          disable: true,
+          pais: 'Chile'
         },
         {
           name: 'Carlos Pino',
           img: 'Equipo/Carlos.jpg',
           url: 'cursos/gmail',
           descripcion: 'Ten una gradable reunión, refuerza, aprende y descubre habilidades nuevas con personas experimentadas en el area',
-          disable: true
+          disable: true,
+          pais: 'Venezuela'
         }
       ]
     }
