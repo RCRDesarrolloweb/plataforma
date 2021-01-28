@@ -59,7 +59,8 @@ const menuList = [
   {
     icon: 'send',
     label: 'Sesiones de 30 Minutos',
-    separator: false
+    separator: false,
+    to: '/Dashboard/Sesiones'
   },
   {
     icon: 'face',
