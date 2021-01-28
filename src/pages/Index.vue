@@ -2,8 +2,8 @@
   <q-page>
     <div class="row justify-start">
       <div v-for="item in cursos" :key="item.name" class="q-ma-md">
-    <q-card class="my-card" style="min-width: 400px">
-      <q-img :src="item.img" style="height: 200px; width:100%; min-width:350px" />
+    <q-card class="my-card" style="min-width: 350px; max-height: 600px;">
+      <q-img :src="item.img" style="height: 100%; width:100%; min-width:350px;min-height:350px; max-height: 350px;" />
 
       <q-card-section>
         <q-btn
@@ -57,7 +57,7 @@ export default {
       cursos: [
         {
           name: 'GMAIL',
-          img: 'Marcas/gmail.jpg',
+          img: 'Marcas/gmail.png',
           url: 'cursos/gmail',
           descripcion: 'Aprende el manejo de correos con Gmail de google',
           disable: true
